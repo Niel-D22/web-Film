@@ -1,0 +1,35 @@
+.myBG {
+  height: 100vh;
+  background: url("../assets/file\ poster\ film/background/bulan.jpeg");
+  background-size: cover;
+}
+.intro {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: center;
+}
+.title {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1;
+  text-shadow: 2px 2px black;
+  letter-spacing: 4px;
+}
+.trending {
+  height: auto;
+  background: url("../assets/file\ poster\ film/background/logo.jpeg");
+  background-size: cover;
+}
+.movie-images {
+  width: 200px;
+  height: 200px;
+}
+.movie-Wrapper {
+  .card {
+    border: none !important;
+    border-radius: 0 !important;
+    overflow: hidden;
+  }
+}
