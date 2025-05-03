@@ -9,14 +9,14 @@ import TheLion from "../assets/file poster film/Trending/thelionking.jpg.jpeg";
 const Trending = () => {
   return (
     <div>
-      <Container>
+      <Container className="trending-container">
         <br />
         <h1 className="text-white ">TRENDING MOVIES</h1>
         <br />
         <Row>
           {/* // ===DISPLAY BIG HEROO== */}
           <Col  md={4} className="movie-Wrapper" id="Trending">
-            <Card className=" text-white  movie-images">
+            <Card className=" text-white   movie-images">
               <Image
                 src={bigHero}
                 alt="BIG HERO movies"
@@ -28,8 +28,7 @@ const Trending = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">BIG HERO</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Seorang jenius muda dan robot medis bersatu membentuk tim pahlawan untuk melawan kejahatan di San Fransokyo.
                   </Card.Text>
                   <Card.Text>Last updated 3 mins ago</Card.Text>
                 </div>
@@ -52,8 +51,7 @@ const Trending = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">CREED</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Seorang petinju muda, anak dari Apollo Creed, berjuang membuktikan dirinya di ring tinju dengan bantuan Rocky Balboa.
                   </Card.Text>
                   <Card.Text>Last updated 3 mins ago</Card.Text>
                 </div>
@@ -76,8 +74,7 @@ const Trending = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">GATOT KACA</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Kisah tragis seorang komedian yang terpinggirkan dan berubah menjadi sosok kriminal ikonik di Gotham.
                   </Card.Text>
                   <Card.Text>Last updated 3 mins ago</Card.Text>
                 </div>
@@ -100,8 +97,7 @@ const Trending = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">JOKER</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Pertempuran epik antara kekuatan terang dan gelap di galaksi yang jauh, jauh sekali.
                   </Card.Text>
                   <Card.Text>Last updated 3 mins ago</Card.Text>
                 </div>
@@ -125,8 +121,7 @@ const Trending = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">STAR WARS</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Pertempuran epik antara kekuatan terang dan gelap di galaksi yang jauh, jauh sekali.
                   </Card.Text>
                   <Card.Text>Last updated 3 mins ago</Card.Text>
                 </div>
@@ -147,10 +142,9 @@ const Trending = () => {
               />
               <div className="bg-dark ">
                 <div className="p-2 m-2">
-                  <Card.Title className="text-center">GATOT KACA</Card.Title>
+                  <Card.Title className="text-center">THE LION KING</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Anak singa bernama Simba berjuang merebut kembali takhta dari pamannya setelah kematian ayahnya.
                   </Card.Text>
                   <Card.Text>Last updated 3 mins ago</Card.Text>
                 </div>

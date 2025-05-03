@@ -28,10 +28,9 @@ const SuperHero = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">AVENGERS</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Para Avengers dan sekutunya berjuang menghentikan Thanos yang ingin menghapus setengah kehidupan di alam semesta.
                   </Card.Text>
-                  <Card.Text>Last updated 3 mins ago</Card.Text>
+                  <Card.Text className="text-waktu">Last updated 3 mins ago</Card.Text>
                 </div>
               </div>
             </Card>
@@ -52,10 +51,9 @@ const SuperHero = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">CAPTAIN AMERIKA</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Steve Rogers menghadapi musuh misterius yang ternyata adalah sahabat lamanya yang dicuci otak.
                   </Card.Text>
-                  <Card.Text>Last updated 3 mins ago</Card.Text>
+                  <Card.Text className="text-waktu">Last updated 3 mins ago</Card.Text>
                 </div>
               </div>
             </Card>
@@ -76,10 +74,9 @@ const SuperHero = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">SPIDERMAN</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Peter Parker menghadapi ancaman ilusi saat berlibur di Eropa pasca peristiwa Endgame.
                   </Card.Text>
-                  <Card.Text>Last updated 3 mins ago</Card.Text>
+                  <Card.Text className="text-waktu">Last updated 3 mins ago</Card.Text>
                 </div>
               </div>
             </Card>
@@ -100,10 +97,9 @@ const SuperHero = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">WOLVFRINE</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Mutan penyembuh cepat ini menghadapi masa lalu kelamnya saat melindungi seorang wanita di Jepang.
                   </Card.Text>
-                  <Card.Text>Last updated 3 mins ago</Card.Text>
+                  <Card.Text className="text-waktu">Last updated 3 mins ago</Card.Text>
                 </div>
               </div>
             </Card>
@@ -125,10 +121,9 @@ const SuperHero = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">VENOM</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                   Seorang jurnalis menyatu dengan symbiote alien yang memberinya kekuatan super dan kepribadian ganda.
                   </Card.Text>
-                  <Card.Text>Last updated 3 mins ago</Card.Text>
+                  <Card.Text className="text-waktu">Last updated 3 mins ago</Card.Text>
                 </div>
               </div>
             </Card>
@@ -149,10 +144,9 @@ const SuperHero = () => {
                 <div className="p-2 m-2">
                   <Card.Title className="text-center">IRON MAN</Card.Title>
                   <Card.Text className="text-left">
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content.
+                  Miliarder Tony Stark menciptakan baju zirah berteknologi tinggi untuk menjadi pahlawan setelah nyaris terbunuh.
                   </Card.Text>
-                  <Card.Text>Last updated 3 mins ago</Card.Text>
+                  <Card.Text className="text-waktu">Last updated 3 mins ago</Card.Text>
                 </div>
               </div>
             </Card>

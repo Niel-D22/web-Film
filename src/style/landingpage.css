@@ -34,7 +34,6 @@
   height: auto;
   background: url("../assets/file\ poster\ film/background/logo.jpeg");
   background-size: cover;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -44,22 +43,57 @@
   height: auto;
   background: url("../assets/file\ poster\ film/background/batmancar.jpeg");
   background-size: cover;
-  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .movie-images {
-  height: auto;
+  position: relative;
+  overflow: visible; /* penting agar anak yang besar tidak terpotong */
+  height: 500px;
   background-color: black;
-  margin: 5px;
-  padding: 5px;
+  margin: 25px;
+  padding: 3px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border: black;
+  text-align: center;
+  transition: transform 0.6s ease-in-out, opacity 0.8s ease-in-out;
 }
-
+.movie-images:hover {
+  transform: scale(1.1); /* Menambah efek zoom saat di-hover */
+  opacity: 0.9; /* Menurunkan opacity sedikit */
+}
+.movie-images:active {
+  transform: scale(0.95); /* Membuat gambar sedikit mengecil saat diklik */
+  opacity: 1; /* Mengembalikan opacity saat diklik */
+  transition: transform 0,8s ease-in-out, opacity 0,8s ease-in-out;
+}
 .images {
-  width: 100%;
-  height: auto;
+  width:auto;
   object-fit: cover;
   aspect-ratio: 2/3; 
+}
+
+.text-left{
+  text-align:center;
+}
+.text-waktu{
+  text-align: center;
+}
+/* Menargetkan tombol Bootstrap */
+.btn {
+  background: transparent !important; /* Menghilangkan latar belakang */
+  border: 3px solid transparent!important; /* Menghilangkan border */
+  color: #fff !important; /* Warna teks tombol */
+}
+
+.btn:hover {
+  border: 3px solid white  !important;
+  background: transparent !important; /* Menghilangkan latar belakang saat hover */
+  color: #fff !important; /* Menjaga warna teks tetap */
+}
+
+.btn:focus, .btn:active {
+  outline: none !important; /* Menghilangkan outline saat tombol difokuskan atau aktif */
+  box-shadow: none !important; /* Menghilangkan bayangan */
 }
