@@ -1,8 +1,20 @@
+@media (max-width: 480px) {
+  .images {
+    aspect-ratio: 2/3;
+    height: auto;
+  }
+}
+
+/* classname di app.js */
 .myBG {
   height: 100vh;
   background: url("../assets/file\ poster\ film/background/bulan.jpeg");
   background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
 .intro {
   height: 300px;
   display: flex;
@@ -17,19 +29,37 @@
   text-shadow: 2px 2px black;
   letter-spacing: 4px;
 }
+/* classname di app.js */
 .trending {
   height: auto;
   background: url("../assets/file\ poster\ film/background/logo.jpeg");
   background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+/* classname di app.js */
+.superhero {
+  height: auto;
+  background: url("../assets/file\ poster\ film/background/batmancar.jpeg");
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .movie-images {
-  width: 200px;
-  height: 200px;
+  height: auto;
+  background-color: black;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
-.movie-Wrapper {
-  .card {
-    border: none !important;
-    border-radius: 0 !important;
-    overflow: hidden;
-  }
+
+.images {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 2/3; 
 }
